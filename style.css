@@ -1,0 +1,18 @@
+body{
+    background-image: url('pexels-pixabay-531880.jpg');
+}
+
+canvas{
+    border: 2px ridge black;
+    border-radius: 100px;
+    animation: example 4s infinite;
+}
+
+@keyframes example{
+    from{
+        box-shadow: 2px 2px 20px rgb(137, 192, 221)
+    }
+    to{
+        box-shadow: 2px 2px 20px rgb(107, 236, 95);
+    }
+}
